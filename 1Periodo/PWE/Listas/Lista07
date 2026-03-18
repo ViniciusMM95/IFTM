@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form>
+        <label>Nome: </label>
+        <input type="text"> <br><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="Masculino">
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="sexo" value="Feminino">
+        <label for="Masculino">Feminino</label><br><br>
+        
+        <label for="estado civil">Estado Civil:</label>
+            <select name="estado civil">
+                <option value="" disabled selected hidden>Selecione</option>
+                <option value="Casado">Casado</option>
+                <option value="Solteiro">Solteiro</option>
+                <option value="Viuvo">Viúvo</option>
+                <option value="Divorciado">Divorciado</option>
+                <option value="Outro">Outro</option>
+            </select> <br><br>
+        <label>E-mail: </label>
+        <input type="email"> <br><br>
+        <label>Endereço: </label>
+        <input type="text"> <br><br>
+        <label for="numero">Número: </label>
+        <input type="number" name="numero"> <br><br>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" name="data_nascimento"> <br><br>
+        <label for="telefone">Telefone com DDD:</label>
+        <input type="tel" name="telefone" placeholder="(00) 00000-0000" required><br><br>
+        <label for="website">Página pessoal</label>
+        <input type="url" name="website"><br><br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+
+    
+
+
+    </form>
+</body>
+</html>
