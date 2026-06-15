@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav ul {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    height: 50px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+.topo {
+    padding: 14px;
+    background-color: rgb(13, 13, 108);
+}
+
+.topo .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    border: 4px solid red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.topo h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.topo img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.topo p {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.produtos {
+    padding: 16px;
+    background-color: white;
+}
+
+.produtos .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+.produtos .container > div {
+    width: 100%;
+    padding: 16px 0;
+    gap: 20px;
+}
+
+.produtos .container > div p {
+    padding: 8px 0;
+    text-align: justify;
+}
+
+.produtos .container > div summary {
+    color: orange;
+}
+
+.produtos .container img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+
+.texto {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+.texto > div {
+    width: 100%;
+    margin: auto;
+    padding: 18px 0;
+    gap: 10px;
+    text-align: justify;
+}
+
+.rodape {
+    padding: 18px 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.rodape p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+nav ul {
+    background-color: red;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+   
+}
+
+nav ul li {
+    
+    height: 50px;
+    align-items: center;
+}
+
+nav ul li a {
+    
+    color: white;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+.topo {
+  padding: 20px;
+  background-color:rgb(13, 13, 108);
+}
+
+.topo .container {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 4px solid red;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.topo h1 {
+  
+  font-size: 32px;
+  color: black;
+}
+
+.topo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.topo p {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.produtos {
+    padding: 20px;
+    background-color: white;
+}
+
+.produtos .container {
+    display:flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.produtos .container > div {
+    padding: 20px;
+    gap: 20px;
+    p {
+        padding: 10px;
+        text-align: justify;
+    }
+    summary {
+        color: orange;
+    }
+}
+
+.texto > div {
+    width: 1200px;
+    margin: auto;
+    padding: 30px;
+    gap: 10px;
+    text-align: justify;
+    
+}
+
+.rodape {
+  padding: 18px 20px;
+  background-color: red;
+  text-align: center;
+}
+
+.rodape p {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}
+
+}
