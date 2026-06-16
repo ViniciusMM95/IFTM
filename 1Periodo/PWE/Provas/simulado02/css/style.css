@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+.section_parte1,
+.section_parte2,
+.section_parte3 .container,
+.section_parte4 .container,
+.parte5,
+.parte6 {
+    width: 90%;
+    margin: auto;
+}
+
+.section_parte1 p,
+.section_parte2 > div > p,
+.section_parte3 .container p,
+.section_parte4 .container p,
+.parte5 p,
+.parte6 .texto p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.section_parte1 > div,
+.section_parte2 > div,
+.section_parte3 .container > div,
+.section_parte4 .container > div,
+.parte5,
+.parte6 {
+    padding: 20px;
+}
+
+.section_parte1 > div > button,
+.section_parte2 > div > button,
+.section_parte3 .container button,
+.section_parte4 div > button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.section_parte1 h2,
+.parte5 h2,
+.parte6 .texto h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.section_topo > div > img,
+.section_parte3 .container img {
+    width: 100%;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 140);
+    font-size: 13px;
+
+}
+
+header ul li {
+    list-style: none;
+       
+    
+}
+
+header ul li a:link, header ul li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+        
+} 
+header ul li a:hover {
+    text-decoration: underline;
+    }
+
+
+
+.section_parte1 {
+    padding-top: 20px;
+    line-height: 1.5;
+    background-color: rgba(240, 240, 240, 0.842);
+
+    
+}
+
+.section_parte1 p {
+    margin-bottom: 20px;
+}
+
+.section_parte1 > div > button {
+    background-color: rgb(0, 0, 0);
+    
+}
+.section_parte1 > div >  button:hover {
+    background-color: rgb(206, 96, 0);
+    cursor: pointer;
+}
+
+.section_parte2 {
+
+    padding-top: 20px;
+    line-height: 1.5;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.section_parte2 img {
+    width: 10%;
+    height: auto;
+}
+
+.section_parte2 > div > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section_parte2 > div > button {
+    background-color: rgb(5, 58, 145);
+    
+}
+
+.section_parte3 .container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 240, 240, 0.842);
+
+}
+
+.section_parte3 .container p {
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.section_parte3 .container button {
+    background-color: black;
+}
+.section_parte4 .container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+
+}
+.section_parte4 .container p {
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.section_parte4 div > button {
+    background-color: rgb(5, 58, 145);
+    
+}
+
+.parte5 {
+    background-color: rgb(220, 220, 220);
+    line-height: 1.5;
+}
+
+.parte5 p {
+    margin-bottom: 20px;
+}
+
+.parte5 button,
+.parte6 button {
+    min-width: 130px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 22px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.parte5 button + button {
+    background-color: rgb(11, 11, 140);
+    margin-left: 8px;
+}
+
+.parte6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    line-height: 1.5;
+}
+
+.parte6 .texto p {
+    margin-bottom: 20px;
+}
+
+.parte6 .texto p:last-child {
+    margin-bottom: 0;
+}
+
+.parte6 .agenda {
+    text-align: center;
+}
+
+.parte6 .agenda img {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    margin: 0 auto 12px;
+}
+
+.parte6 .agenda button + button {
+    margin-left: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 42px;
+    height: 90px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .section_parte1,
+    .section_parte2,
+    .section_parte3 .container,
+    .parte5,
+    .parte6 {
+        max-width: 1200px;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .section_topo > div > img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section_parte1 {
+        padding-bottom: 20px;
+    }
+
+    .section_parte2 {
+        padding-bottom: 20px;
+
+
+    }
+    .section_parte2 img {
+        width: 40px;
+        height: auto;
+    }
+
+    .section_parte3 .container {
+        flex-direction: row;
+    }
+
+    .section_parte3 .container > div {
+        width: 50%;
+    }
+    
+    .section_parte4 .container {
+        flex-direction: row;
+        width: 1200px;
+        margin: auto;
+    }
+
+    .parte6 {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 40px;
+        
+    }
+
+    .parte6 .texto {
+        width: 46%;
+    }
+
+    .parte6 .agenda {
+        width: 46%;
+        padding-top: 20px;
+    }
+}
+
